@@ -1,6 +1,6 @@
 # reverie
 
-> slowed · reverb · pitch — an iOS audio editor
+> slowed · reverb · pitch - an iOS audio editor
 
 reverie is a minimal iOS app that lets you slow down, pitch-shift, and add reverb to any audio file. import from your files or paste a YouTube link to download and edit instantly.
 
@@ -12,14 +12,14 @@ reverie is a minimal iOS app that lets you slow down, pitch-shift, and add rever
 
 ## features
 
-- **speed control** — slow down or speed up audio (0.5× – 1.5×)
-- **pitch shifting** — raise or lower pitch independently of speed
-- **reverb presets** — small room, medium hall, large hall, chamber, cathedral, plate
-- **quick presets** — slowed, dreamy, deep, lofi, nightcore — one tap
-- **youtube import** — paste any YouTube URL, audio downloads in the background via our yt-dlp backend
-- **export to m4a** — renders the processed audio and saves to your Files
-- **lock screen controls** — play/pause and scrubbing from the lock screen and control center
-- **typewriter UI** — dark monospaced interface with animated text
+- **speed control** - slow down or speed up audio (0.5× – 1.5×)
+- **pitch shifting** - raise or lower pitch independently of speed
+- **reverb presets** - small room, medium hall, large hall, chamber, cathedral, plate
+- **quick presets** - slowed, dreamy, deep, lofi, nightcore - one tap
+- **youtube import** - paste any YouTube URL, audio downloads in the background via our yt-dlp backend
+- **export to m4a** - renders the processed audio and saves to your Files
+- **lock screen controls** - play/pause and scrubbing from the lock screen and control center
+- **typewriter UI** - dark monospaced interface with animated text
 
 ---
 
@@ -64,7 +64,7 @@ then update `serviceBase` in `ContentView.swift` to point to the server:
 // local (simulator)
 static var serviceBase = "http://localhost:8001"
 
-// on-device — replace with your machine's local IP
+// on-device - replace with your machine's local IP
 static var serviceBase = "http://192.168.x.x:8001"
 
 // deployed
@@ -75,7 +75,7 @@ static var serviceBase = "https://your-service.onrender.com"
 
 ## deploying the backend
 
-the `ytdl/` folder includes a `Dockerfile` — deploy anywhere that runs containers:
+the `ytdl/` folder includes a `Dockerfile` - deploy anywhere that runs containers:
 
 **render (free tier)**
 1. push this repo to GitHub
